@@ -1,0 +1,135 @@
+body{
+    height: 2400px;
+    min-width: 1440px;
+    margin-left: 0px;
+}
+.wrap{
+    overflow: hidden;
+}
+#eyecatch1{
+    width:100%;
+  
+}
+#logo{
+    float: left;
+    margin-right: 807px;
+    margin-bottom: -10px;
+    font-size: 26px;
+    color: #3FA9F5;
+    margin-top: 4px;
+}
+#header{
+    float:right;
+}
+.twitter btn{
+    width: 100px;
+}
+#box2{
+    text-align: center;
+    margin-top: 40px;
+    display: inline-block;
+    display: table;
+    margin: auto;
+    height: 627px;
+}
+h1{
+    text-align: center;
+    color: #3FA9F5;
+}
+#pic{
+    width: 300px;
+    text-align: center;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    paddin: 90px;
+}
+ul{
+    margin-top: 80px;
+}
+h2{
+    color: #3FA9F5;
+    font-size: 30px;
+}
+#hr1{
+    
+    height: 1px;
+    background-color: #3FA9F5;
+}
+#box3{
+    margin-top: 140px;
+    height: 627px;
+}
+#text{
+    float: left;
+}
+#bt{
+    color: #3FA9F5;
+    margin-left: 200px;
+    font-size: 60px;
+}
+#btt{
+    margin-left: 200px;
+    font-size: 22px;
+}
+#eyecatch2{
+    float:right;
+    width: 580px;
+    margin-right: 55px;
+    margin-bottom: -492px;
+}
+#box4{
+    text-align: center;
+    margin-top: 100px;
+    height: 627px;
+}
+#vt{
+    font-size: 50px;
+}
+#box5{
+    text-align: center;
+    background-color: aliceblue;
+    height:300px;
+}
+#box6{
+    text-align: center;
+    height: 200px;
+}
+#fotter{
+    background-color: #3FA9F5;
+    text-align: center;
+    color: white;
+}
+.box{
+    display: inline-block;
+    margin-bottom: -4px;
+    margin-top: -3px;
+}
+#mov{
+    float:right;
+    position: absolute;
+    right:110px;
+    top:1949px;
+    width: 455px;
+}
+.sns{
+    margin-top: 50px;
+}
+iframe.twitter-follow-button {
+    visibility: hidden;
+    width: 10px;
+}
+.fb-follow{
+    margin-right: 198px;
+}
+#fb-button{
+    position: absolute;
+    top: 3615px;
+    right: 750px;
+}
+#insta-button{
+    position: absolute;
+    top: 3614px;
+    left: 951px;
+}
