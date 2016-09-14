@@ -2,6 +2,7 @@ body{
     height: 2400px;
     min-width: 1440px;
     margin-left: 0px;
+    margin-top: 0px;
 }
 .wrap{
     overflow: hidden;
@@ -17,6 +18,24 @@ body{
     font-size: 26px;
     color: #3FA9F5;
     margin-top: 4px;
+}
+#mubot_ic{
+    width: 16%;
+    position: absolute;
+    top: 640px;
+    left: 225px;
+}
+#icon_p{
+    position: absolute;
+    top: 637px;
+    right: 431px;
+    font-size: 22px;
+    color: red;
+}
+#huki{
+    position: absolute;
+    top: 649px;
+    left: 453px;
 }
 #header{
     float:right;
@@ -94,7 +113,7 @@ h2{
 }
 #box6{
     text-align: center;
-    height: 200px;
+    height: 300px;
 }
 #fotter{
     background-color: #3FA9F5;
@@ -110,7 +129,7 @@ h2{
     float:right;
     position: absolute;
     right:110px;
-    top:1949px;
+    top: 1908px;
     width: 455px;
 }
 .sns{
@@ -133,3 +152,12 @@ iframe.twitter-follow-button {
     top: 3614px;
     left: 951px;
 }
+.fb-like{
+    transform:scale(2);
+    -webkit-transform:scale(2);
+    -moz-transform:scale(2);
+}
+#arrow-like{
+    display: inline-block;
+}
+
