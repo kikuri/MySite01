@@ -11,6 +11,33 @@ body{
     width:100%;
   
 }
+#mubot{
+    position: absolute;
+    top: 261px;
+    right: 545px;
+    font-size: 97px;
+    color: #3FA9F5;
+    font-family: sans-serif;
+}
+#eye_p{
+    position: absolute;
+    top: 268px;
+    right: 468px;
+    color: aliceblue;
+    font-size: 35px;
+    font-family: serif;
+}
+#come{
+    position: absolute;
+    top: 615px;
+    right: 612px;
+    font-size: 25px;
+}
+#messenger{
+    position: absolute;
+    top: 623px;
+    right: 569px;
+}
 #logo{
     float: left;
     margin-right: 807px;
@@ -22,19 +49,19 @@ body{
 #mubot_ic{
     width: 16%;
     position: absolute;
-    top: 640px;
+    top: 721px;
     left: 225px;
 }
 #icon_p{
     position: absolute;
-    top: 637px;
+    top: 725px;
     right: 431px;
     font-size: 22px;
-    color: red;
+    color: #db4437;
 }
 #huki{
     position: absolute;
-    top: 649px;
+    top: 737px;
     left: 453px;
 }
 #header{
@@ -50,12 +77,17 @@ body{
     display: table;
     margin: auto;
     height: 627px;
+    margin-bottom: -108px;
 }
 h1{
     text-align: center;
     color: #3FA9F5;
 }
-#pic{
+#p3{
+    color: #db4437;
+    font-size:42px;
+}
+#pic1{
     width: 300px;
     text-align: center;
     display: table-cell;
@@ -64,12 +96,58 @@ h1{
     margin: 10px;
     paddin: 90px;
 }
+#pic2{
+    padding-left: 124px;
+    padding-top:15px;
+    width: 300px;
+    text-align: center;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    paddin: 90px;
+}
+#pic3{
+    padding-left: 124px;
+    width: 300px;
+    text-align: center;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    paddin: 90px;
+}
+#img1{
+    width: 200px;
+}
+#img2{
+    padding-left: 72px;
+    width:300px
+}
+#img3{
+    width: 290px;
+}
 ul{
     margin-top: 80px;
+}
+#music_p{
+    color: #212121;
+}
+#talk_p{
+    color: #212121;
+}
+#recommend_p{
+    color: #212121;
+}
+#come{
+    color: #212121;
 }
 h2{
     color: #3FA9F5;
     font-size: 30px;
+}
+#recommend_h2{
+    margin-top:44px;
 }
 #hr1{
     
@@ -78,7 +156,8 @@ h2{
 }
 #box3{
     margin-top: 140px;
-    height: 627px;
+    height: 767px;
+    background-color: #EEFFFF;
 }
 #text{
     float: left;
@@ -91,6 +170,7 @@ h2{
 #btt{
     margin-left: 200px;
     font-size: 22px;
+    color: #212121;
 }
 #eyecatch2{
     float:right;
@@ -126,10 +206,10 @@ h2{
     margin-top: -3px;
 }
 #mov{
-    float:right;
+    float: right;
     position: absolute;
-    right:110px;
-    top: 1908px;
+    right: 114px;
+    top: 1881px;
     width: 455px;
 }
 .sns{
@@ -156,8 +236,41 @@ iframe.twitter-follow-button {
     transform:scale(2);
     -webkit-transform:scale(2);
     -moz-transform:scale(2);
+    display: inline-block;
+    position: relative;
+    top: -100px;
+    right: -681px;
 }
 #arrow-like{
     display: inline-block;
 }
 
+/*.fb_iframe_widget > span {
+    position: absolute;
+    top: 844px;
+    right: 666px;
+}
+#fb-root {
+    display: none;
+}
+
+.fb_iframe_widget, .fb_iframe_widget span,
+.fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+}
+.fb-like,.fb-like span,.fb-like iframe{
+    width:100% !important;
+}*/
+#hatebu{
+    width: 210px;
+    height: 55px;
+}
+#twitter{
+    width: 216px;
+    padding-left: 120px;
+}
+#facebook{
+    width: 206px;
+    margin-right:20px;
+    padding-left: 120px;
+}
