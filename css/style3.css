@@ -1,0 +1,365 @@
+body {
+    min-height: 2400px;
+    min-width: 1250px;
+    max-width: 1440px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.wrap {
+    overflow: hidden;
+}
+
+#eyecatch1 {
+    width: 100%;
+}
+
+#mubot {
+    position: relative;
+    right: 1%;
+    font-size: 585%;
+    color: #3FA9F5;
+    font-family: sans-serif;
+    text-align: center;
+    bottom: 4.3em;
+}
+
+#eye_p {
+    position: relative;
+    color: aliceblue;
+    font-size: 193%;
+    font-family: serif;
+    text-align: center;
+    bottom: 12em;
+}
+
+#come {
+    color: #212121;
+    font-size: 159%;
+    bottom: 17.9em;
+    position: relative;
+    right: -40.5%;
+}
+
+#messenger {
+    position: relative;
+    text-align: center;
+    right: -32%;
+    bottom: 25em;
+    width: 37%;
+}
+
+#logo {
+    float: left;
+    margin-right: 807px;
+    margin-bottom: -10px;
+    font-size: 26px;
+    color: #3FA9F5;
+    margin-top: 4px;
+}
+
+#mubot_ic {
+    width: 48%;
+    position: relative;
+    text-align: center;
+    bottom: 28em;
+    right: -10%;
+}
+
+#icon_p {
+    position: relative;
+    font-size: 19px;
+    color: #db4437;
+    text-align: center;
+    right: -4%;
+    bottom: 29em;
+}
+
+#huki {
+    position: relative;
+    text-align: center;
+    right: -21%;
+    bottom: 37em;
+    width: 66%;
+}
+
+#header {
+    float: right;
+}
+
+.twitter btn {
+    width: 100px;
+}
+
+#box2 {
+    text-align: center;
+    margin: auto;
+    margin-top: -75%;
+}
+
+h1 {
+    text-align: center;
+    color: #3FA9F5;
+    margin-bottom: 2em;
+}
+
+h2 {
+    text-align: center;
+    color: #3FA9F5;
+}
+
+#p3 {
+    color: #db4437;
+    font-size: 42px;
+}
+
+#pic1 {
+    text-align: center;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    padding-left: -4%;
+}
+
+#pic2 {
+    text-align: center;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    padding-left: -12%;
+}
+
+#pic3 {
+    text-align: center;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    padding-right: -4%;
+    /* padding-right: 16%; */
+    /* overflow: visible; */
+}
+
+#img1 {
+    width: 96%;
+}
+
+#img2 {
+    width: 100%;
+}
+
+#img3 {
+    width: 96%;
+    margin-top: 5%;
+}
+
+ul {
+    margin-top: 80px;
+}
+
+#music_p {
+    color: #212121;
+}
+
+#talk_p {
+    color: #212121;
+    /* margin-top: 20%; */
+}
+
+#recommend_p {
+    color: #212121;
+}
+
+h2 {
+    color: #3FA9F5;
+    font-size: 26px;
+}
+
+#music_h2 {
+    margin-top: 18%;
+}
+
+#recommend_h2 {
+    margin-top: 29%;
+}
+
+#hr1 {
+    height: 1px;
+    background-color: #3FA9F5;
+}
+
+#box3 {
+    margin-top: 10%;
+    height: 564px;
+    background-color: #EEFFFF;
+    top: -298px;
+    width: 100%;
+}
+
+#text {
+    /* width: 50%; */
+    margin-top: 46%;
+}
+
+#bt {
+    color: #3FA9F5;
+    margin-left: 14%;
+    font-size: 400%;
+}
+
+#btt {
+    margin-left: 15%;
+    font-size: 20px;
+    color: #212121;
+}
+
+#eyecatch2 {
+    width: 90%;
+    margin-right: 3%;
+    margin-top: 44.9%;
+}
+
+#box4 {
+    text-align: center;
+    width: -1%;
+    margin-top: -34%;
+}
+
+#vt {
+    font-size: 46px;
+    margin-top: 7%;
+}
+
+#box5 {
+    text-align: center;
+    background-color: aliceblue;
+    height: 300px;
+    width: 100%;
+}
+
+#box6 {
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+
+#fotter {
+    background-color: #3FA9F5;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.box {
+    display: inline-block;
+    margin-bottom: -4px;
+    margin-top: -3px;
+}
+
+#mov {
+    width: 69%;
+    position: relative;
+    bottom: 23.2em;
+    right: -11%;
+}
+
+.sns {
+    margin-top: 50px;
+}
+
+iframe.twitter-follow-button {
+    visibility: hidden;
+    width: 10px;
+}
+
+.fb-follow {
+    margin-right: 198px;
+}
+
+#fb-button {
+    position: absolute;
+    top: 3615px;
+    right: 750px;
+}
+
+#insta-button {
+    position: absolute;
+    top: 3614px;
+    left: 951px;
+}
+
+#fb-like1 {
+    transform: scale(1.6);
+    -webkit-transform: scale(1.6);
+    -moz-transform: scale(1.6);
+    display: inline-block;
+    position: relative;
+    right: -44%;
+    bottom: 38em;
+}
+
+#arrow-like {
+    display: inline-block;
+}
+
+#fb-like2 {
+    transform: scale(1.6);
+    -webkit-transform: scale(1.6);
+    -moz-transform: scale(1.6);
+    display: inline-block;
+    position: relative;
+    top: -61px;
+    right: 5px;
+}
+
+
+/*.fb_iframe_widget > span {
+position: absolute;
+top: 844px;
+right: 666px;
+}
+#fb-root {
+display: none;
+}
+
+.fb_iframe_widget, .fb_iframe_widget span,
+.fb_iframe_widget span iframe[style] {
+width: 100% !important;
+}
+.fb-like,.fb-like span,.fb-like iframe{
+width:100% !important;
+}*/
+
+#hatebu {
+    width: 204px;
+    height: 55px;
+}
+
+#twitter {
+    width: 113%;
+    /* padding-left: 23px; */
+    /* padding-bottom: 67%; */
+    height: 54px;
+    padding-top: -35px;
+    position: relative;
+    top: -5px;
+    right: 8%;
+}
+
+#facebook {
+    width: 206px;
+    /* margin-right: 20px; */
+    /* padding-left: 120px; */
+}
+
+
+/*.row .col-md-7 #eye_p {
+position: relative;
+top: -417px;
+right: -49%;
+color: aliceblue;
+font-size: 204%;
+font-family: serif;
+}*/

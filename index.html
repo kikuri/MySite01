@@ -3,29 +3,36 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
-    <link rel="stylesheet" media="all" type="text/css" href="css/style.css" />
+    <meta name="viewport" content="width=1440,user-scalable=yes,maximum-scale=1" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
     <!-- ※デフォルトのスタイル（style.css） -->
-    <link rel="stylesheet" media="all" type="text/css" href="css/smart.css" media="(max-width:375px)"/>
+    <link href="css/smart.css" rel="stylesheet" type="text/css" media="(max-width:375px)" />
+    <link href="css/style3.css" rel="stylesheet" type="text/css" media="screen and (min-width: 768px)">
+    <link href="css/style2.css" rel="stylesheet" type="text/css" media="screen and (min-width: 992px)">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1200px)">
     <!-- ※スマートフォン用のスタイル（smart.css） -->
     <title>あなただけの音楽コンシェルジュ -MUBOT-</title>
     <meta name="description" content="音楽を会話をしながら楽しんで聞けるMUBOTのページです。MUBOTでは400万曲が聴き放題！さらにMUBOTとなんでも話せちゃう！
     会話を通じて音楽をもっと好きになろう！">
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-84490519-1', 'auto');
         ga('send', 'pageview');
-
     </script>
 </head>
 
 <body>
-    <div id="fb-root"></div>
     <script>
         (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
@@ -36,114 +43,148 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
-    <div class="wrap">
-
-        <div class="main">
-            
-            <img src="image/eyecatch6.png" id="eyecatch1">
-            <p id="eye_p">あなただけの音楽コンシェルジュ</p>
-            <p id="mubot">MUBOT</p>
-            <img src="image/Messenger_to.png" id="messenger">
-            <p id="come">Coming soon ...</p>
-            <img src="image/mubot_icon.png" id="mubot_ic">
-            <img src="image/hukidasi-2.png" id="huki">
-            <p id="icon_p">いいねしてくれた方にはリリース時にすぐお知らせ！</p>
-            <div class="fb-wrap">
-                <div class="fb-like" data-href="https://www.facebook.com/mubot00/" data-layout="button" data-action="like" data-size="large" data-show-faces="true">
-            </div>
-            </div>
-
-
-
-            <h1>MUBOTの<span id="p3"> 3 </span>つの特徴</h1>
-            <div id="box2">
-                <ul>
-                    <li id="pic1" 　class="grid4">
-                        <img src="image/554%20%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC.png" id="img1">
-                        <h2 id="music_h2">MUSIC</h2>
-                        <p id="music_p">邦楽・JPOPを中心とした
-                            <br>400万曲が<span style="color: #db4437;">無料で聴き放題</span>
-                            <br> Facebook messenger上で
-                            <br>使えちゃうから登録不要で
-                            <br>すぐに聞けちゃう!!</p>
-                    </li>
-                    <li id="pic2" class="grid4">
-                        <img src="image/talk.png" id="img2">
-                        <h2>TALK</h2>
-                        <p id="talk_p">MUBOTは<span style="color: #db4437;">会話を楽しみがら</span>
-                            <br>音楽を聞くことができます。
-                            <br>会話に合わせた曲を自動で
-                            <br>セレクトしてくれるから
-                            <br>雰囲気や気分に 合った曲が
-                            <br> 聞けちゃう!!
-                        </p>
-                    </li>
-                    <li id="pic3" class="grid4" >
-                        <img src="image/63H.jpg" id="img3">
-                        <h2 id="recommend_h2">RECOMMEND</h2>
-                        <p id="recommend_p">あなたがよく聴く曲やアーティスト
-                            <br>などをMUBOTが学習し、<span style="color: #db4437;">おすすめ</span>
-                            <br>してくれます。 もう毎回検索して
-                            <br>うっとおしくなることは
-                            <br>ありません。</p>
-                    </li>
-                </ul>
-            </div>
-
-            <!--<hr id="hr1" width="100%">-->
-
-            <div id="box3">
-                <div id="text">
-                    <p id="bt">More Music
-                        <br id="br"> More Fun</p>
-                    <p id="btt"><span style="color: #db4437;">音楽と会話</span>をマッチさせた
-                        <br id="br">新しい音楽体験をあなたに
-                        <br id="br">
-                        <br id="br">
-                        <br id="br">これからの音楽における
-                        <br id="br">新しいパートナーをあなたに</p>
-                </div>
-                <img src="image/smart-one.png" id="eyecatch2">
-                <video src="image/mov_2.mov" id="mov" autoplay loop></video>
-            </div>
-            <!--<hr id="hr1" width="100%" style="margin:-1px;">-->
-            <div id="box4">
-               <div class="iframe-content">
-                   <iframe class="iframe" width="750px" height="450px" src="https://www.youtube.com/embed/cHMuLi0pG0s" frameborder="0" allowfullscreen >
-                   </iframe>
-               </div>
-                <h1 id="vt"><span style="color: #db4437;">2017 </span>年<span style="color: #db4437;"> 1 </span>月リリース予定!</h1>
-            </div>
-
-            <div id="box5">
-                <h1 style="padding-top: 55px;">いいねしてくれた方にはリリース時にすぐお知らせ！</h1>
-                <div id="arrow-like">
-                    <img src="image/arrow.png" style="padding-right: 340px;">
-                    <div class="fb-wrap">
-                        <div class="fb-like" data-href="https://www.facebook.com/mubot00/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" style="transform:scale(2);-webkit-transform:scale(2);-moz-transform:scale(2);display: inline-block;position: relative;top: -75px;right: 5px;"></div>
+    <div class="container">
+        <div id="fb-root"></div>
+        <div class="wrap">
+            <div class="main">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12"> <img src="image/eyecatch6.png" id="eyecatch1">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <p id="eye_p">あなただけの音楽コンシェルジュ</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <p id="mubot">MUBOT</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12"> <img src="image/Messenger_to.png" id="messenger">
+                                <p id="come">Coming soon ...</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-5"> <img src="image/mubot_icon.png" id="mubot_ic"> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12"> <img src="image/hukidasi-2.png" id="huki">
+                                <p id="icon_p">いいねしてくれた方にはリリース時にすぐお知らせ！</p>
+                            </div>
+                        </div>
+                        <div class="fb-wrap">
+                            <div class="fb-like" id="fb-like1" data-href="https://www.facebook.com/mubot00/" data-layout="button" data-action="like" data-size="large" data-show-faces="true"> </div>
+                        </div>
                     </div>
-                    
                 </div>
-
-
-            </div>
-            <div id="box6">
-                <h1 style="margin-top: 0px;padding-top: 62px;">SNSでMUBOTをシェア</h1>
-                <div class="sns">
-                    <a href="http://b.hatena.ne.jp/entry/mubot.info" class="hatena-bookmark-button" data-hatena-bookmark-layout="simple" title="MUBOT"><img src="image/hatebu.png" alt="はてなブックマークに追加" id="hatebu"/></a>
-                    <script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
-                    <a class="twitter btn" href="http://twitter.com/share?url=https://twitter.com/?lang=ja" target="_blank" style="text-decoration: none;">
-                        <img src="image/Twiiter.png"  id="twitter">
-                    </a>
-
-                    <a href="http://www.facebook.com/share.php?u=https://www.facebook.com/mubot00/" onclick="window.open(encodeURI(decodeURI(this.href)), 'FBwindow', 'width=554, height=470, menubar=no, toolbar=no, scrollbars=yes'); return false;" rel="nofollow">
-                    <img src="image/Facebook2.png"  id="facebook">
-                    </a>
+                <div class="row">
+                    <div id="box2">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <h1>MUBOTの<span id="p3"> 3 </span>つの特徴</h1></div>
+                        <ul>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <li id="pic1"> <img src="image/554%20%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC.png" id="img1">
+                                    <h2 id="music_h2">MUSIC</h2>
+                                    <p id="music_p">邦楽・JPOPを中心とした
+                                        <br>400万曲が<span style="color: #db4437;">無料で聴き放題</span>
+                                        <br> Facebook messenger上で
+                                        <br>使えちゃうから登録不要で
+                                        <br>すぐに聞けちゃう!!</p>
+                                </li>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <li id="pic2"> <img src="image/talk.png" id="img2">
+                                    <div id="TALK_wrap">
+                                        <h2>TALK</h2> </div>
+                                    <div id="talk_wrap">
+                                        <p id="talk_p">MUBOTは<span style="color: #db4437;">会話を楽しみがら</span>
+                                            <br>音楽を聞くことができます。
+                                            <br>会話に合わせた曲を自動で
+                                            <br>セレクトしてくれるから
+                                            <br>雰囲気や気分に 合った曲が
+                                            <br> 聞けちゃう!! </p>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <li id="pic3"> <img src="image/63H.jpg" id="img3">
+                                    <h2 id="recommend_h2">RECOMMEND</h2>
+                                    <p id="recommend_p">あなたがよく聴く曲やアーティスト
+                                        <br>などをMUBOTが学習し、<span style="color: #db4437;">おすすめ</span>
+                                        <br>してくれます。 もう毎回検索して
+                                        <br>うっとおしくなることは
+                                        <br>ありません。</p>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-
-            <div id="fotter">
-                <p class="box">Powered by<img src="image/rekotyoku.png" style="margin-top:5px; margin-left:7px;" class="box"></p>
+                <!--<hr id="hr1" width="100%">-->
+                <div class="row">
+                    <div id="box3">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div id="text">
+                                <p id="bt">More Music
+                                    <br id="br"> More Fun</p>
+                                <p id="btt"><span style="color: #db4437;">音楽と会話</span>をマッチさせた
+                                    <br id="br">新しい音楽体験をあなたに
+                                    <br id="br">
+                                    <br id="br">
+                                    <br id="br">これからの音楽における
+                                    <br id="br">新しいパートナーをあなたに</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div id="mov_wrap"> <img src="image/smart-one.png" id="eyecatch2">
+                                <video src="image/mov_2.mov" id="mov" autoplay loop></video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--<hr id="hr1" width="100%" style="margin:-1px;">-->
+                <div class="row">
+                    <div id="box4">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="iframe-content">
+                                <iframe class="iframe" width="750px" height="450px" src="https://www.youtube.com/embed/cHMuLi0pG0s" frameborder="0" allowfullscreen> </iframe>
+                            </div>
+                            <h1 id="vt"><span style="color: #db4437;">2017 </span>年<span style="color: #db4437;"> 1 </span>月リリース予定!</h1> </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="box5">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <h2 style="padding-top: 55px;">いいねしてくれた方にはリリース時にすぐお知らせ！</h2>
+                            <div id="arrow-like"> <img src="image/arrow.png" style="padding-right: 340px;">
+                                <div class="fb-wrap">
+                                    <div class="fb-like" id="fb-like2" data-href="https://www.facebook.com/mubot00/" data-layout="button" data-action="like" data-size="large" data-show-faces="true"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="box6">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <h2 style="margin-top: 0px;padding-top: 62px;">SNSでMUBOTをシェア</h2>
+                            <div class="sns">
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <a href="http://b.hatena.ne.jp/entry/mubot.info" class="hatena-bookmark-button" data-hatena-bookmark-layout="simple" title="MUBOT"><img src="image/hatebu.png" alt="はてなブックマークに追加" id="hatebu" /></a>
+                                    <script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <a class="twitter btn" href="http://twitter.com/share?url=https://twitter.com/?lang=ja" target="_blank" style="text-decoration: none;"> <img src="image/Twiiter.png" id="twitter"> </a>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <a href="http://www.facebook.com/share.php?u=https://www.facebook.com/mubot00/" onclick="window.open(encodeURI(decodeURI(this.href)), 'FBwindow', 'width=554, height=470, menubar=no, toolbar=no, scrollbars=yes'); return false;" rel="nofollow"> <img src="image/Facebook2.png" id="facebook"> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="fotter">
+                    <p class="box">Powered by<img src="image/rekotyoku.png" style="margin-top:5px; margin-left:7px;" class="box"></p>
+                </div>
             </div>
         </div>
     </div>
