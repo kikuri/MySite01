@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 381px) and (max-width: 767px) {
     body {
         margin-left: 0px;
         margin-top: 0px;
@@ -33,10 +33,10 @@
         bottom: -7.8em;
     }
     #mes_icon {
-        width: 2.3%;
+        width: 4.3%;
         position: relative;
-        left: 40.8%;
-        bottom: -9.1em;
+        left: 39%;
+        bottom: -8.8em;
     }
     .sample {
         width: 182px;
@@ -51,7 +51,7 @@
         border-radius: 5px;
         box-shadow: 2px 2px #1a6ea0;
         position: relative;
-        left: 38%;
+        left: 37%;
         bottom: -10.3em;
         height: 34px;
     }
@@ -68,7 +68,7 @@
         transition: 1s;
         /* フェードの時間(秒) */
         width: 99%;
-        height: 115%;
+        height: 109%;
     }
     .slideshow .show {
         opacity: 1;
@@ -76,8 +76,8 @@
     }
     #come {
         position: relative;
-        left: 41%;
-        bottom: -16em;
+        left: 42%;
+        bottom: -15em;
         z-index: 10;
         width: 17%;
         opacity: 0.7;
@@ -97,19 +97,19 @@
         margin-top: 4px;
     }
     #mubot_ic {
-        width: 36%;
+        width: 44%;
         position: relative;
         text-align: center;
-        bottom: -13em;
-        right: -35%;
+        bottom: -10em;
+        right: -26%;
     }
     #icon_p {
         position: relative;
-        font-size: 17px;
+        font-size: 14px;
         color: #EF454A;
         text-align: center;
-        right: 0%;
-        bottom: -1em;
+        right: -2%;
+        bottom: -0.8em;
         font-family: monospace;
         font-weight: 300;
     }
@@ -124,25 +124,25 @@
         position: relative;
         display: inline-block;
         padding: 0 15px;
-        width: 396px;
+        width: 321px;
         /* min-width: 115px; */
-        height: 39px;
+        height: 28px;
         color: #F6F6F6;
         line-height: 50px;
         text-align: center;
         background: #fff;
         border-radius: 50px;
-        bottom: -4em;
+        bottom: -3em;
         left: 28%;
     }
     #balloon-5-bottom-right:before {
         content: "";
         position: absolute;
-        bottom: -17px;
+        bottom: -13px;
         /* right: 15px; */
         margin-right: 0;
         display: block;
-        width: 15px;
+        width: 13px;
         height: 15px;
         background: #fff;
         border-radius: 50%;
@@ -152,11 +152,11 @@
     #balloon-5-bottom-right:after {
         content: "";
         position: absolute;
-        bottom: -25px;
+        bottom: -21px;
         /* right: 25px; */
         margin-right: 0;
         display: block;
-        width: 8px;
+        width: 7px;
         height: 8px;
         background: #fff;
         border-radius: 50%;
@@ -179,9 +179,8 @@
         color: #00A4F4;
         /* margin-bottom: 2em; */
         font-family: serif;
-        font-size: 260%;
+        font-size: 242%;
         /* margin-top: 101px; */
-        padding-top: 36px;
         font-weight: 900;
     }
     h2 {
@@ -204,7 +203,7 @@
         vertical-align: middle;
         margin: 10px;
         /* margin-left: -30px; */
-        padding-left: 18px;
+        /* padding-left: 18px; */
         padding-top: 10px;
     }
     #pic2 {
@@ -213,6 +212,7 @@
         text-align: center;
         vertical-align: middle;
         /* margin: 0px; */
+        padding-right: 39px;
     }
     #pic3 {
         text-align: center;
@@ -223,15 +223,15 @@
         padding-top: 22px;
     }
     #img1 {
-        width: 73%;
+        width: 67%;
     }
     #img2 {
-        width: 100%;
+        width: 124%;
         margin-right: -82px;
         text-align: center;
     }
     #img3 {
-        width: 73%;
+        width: 78%;
     }
     ul {
         margin-top: 80px;
@@ -240,21 +240,22 @@
         color: #212121;
         font-weight: 600;
         font-family: serif;
-        font-size: 102%;
+        font-size: 90%;
     }
     #talk_p {
         color: #212121;
         font-weight: 600;
         font-family: serif;
-        font-size: 102%;
+        font-size: 87%;
         text-align: center;
-        padding-left: 27px;
+        /* padding-left: 27px; */
+        width: 106%;
     }
     #recommend_p {
         color: #212121;
         font-weight: 600;
         font-family: serif;
-        font-size: 102%;
+        font-size: 85%;
         width: 103%;
     }
     #come {
@@ -265,16 +266,17 @@
         font-size: 155%;
         font-family: serif;
         font-weight: 600;
+        margin-top: 11px;
     }
     #music_h2 {
         margin-top: 18%;
-        font-size: 185%;
+        font-size: 155%;
         font-family: serif;
         color: #00A4F4;
     }
     #recommend_h2 {
-        margin-top: 18%;
-        padding-left: 16%;
+        margin-top: 16%;
+        /* padding-left: 16%; */
     }
     #hr1 {
         height: 1px;
@@ -282,7 +284,7 @@
     }
     #box3 {
         margin-top: 42px;
-        height: 478px;
+        height: 350px;
         background-color: aliceblue;
         top: -298px;
         width: 100%;
@@ -294,14 +296,14 @@
     #bt {
         color: #3FA9F5;
         margin-left: 25%;
-        font-size: 339%;
+        font-size: 255%;
         font-family: serif;
         font-weight: 900;
         padding-top: -30px;
     }
     #btt {
         margin-left: 25%;
-        font-size: 120%;
+        font-size: 97%;
         color: #212121;
         font-family: serif;
         font-weight: 400;
@@ -315,7 +317,7 @@
     #box4 {
         /* text-align: center; */
         width: 100%;
-        margin-top: -52%;
+        margin-top: -51%;
         /* margin-right: 544px; */
         /* padding-right: 516px; */
     }
@@ -324,19 +326,19 @@
         font-weight: 900;
         font-family: serif;
         color: #00A4F4;
-        width: 116%;
+        width: 168%;
         /* margin-top: -465px; */
         margin-left: 103px;
         position: relative;
-        top: 426px;
-        right: 78%;
+        top: 463px;
+        right: 115%;
     }
     #box5 {
         text-align: center;
         background-color: aliceblue;
-        height: 150px;
+        height: 107px;
         width: 100%;
-        margin-top: 15%;
+        margin-top: 26%;
     }
     #box6 {
         text-align: center;
@@ -358,7 +360,7 @@
     .mov {
         width: 62%;
         position: relative;
-        top: -698px;
+        top: -505px;
         right: -19%;
     }
     .sns {
@@ -378,12 +380,11 @@
         /* width: 119%; */
         /* right: 2%; */
         /* line-height: 100px; */
-        /* height: 521px; */
+        /* height: 463px; */
     }
     .iframe-content {
-        /* margin-left: -3px; */
+        margin-left: -3px;
         /* width: 100px; */
-        margin-left: 65px;
     }
     iframe.twitter-follow-button {
         visibility: hidden;
@@ -403,13 +404,13 @@
         left: 951px;
     }
     #fb-like1 {
-        transform: scale(1.2);
-        -webkit-transform: scale(1.2);
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
         -moz-transform: scale(2);
         display: inline-block;
         position: relative;
-        right: -44.5%;
-        bottom: -3em;
+        right: -43.5%;
+        bottom: -2em;
         border-radius: 4px;
         box-shadow: 2px 2px 2px #000;
     }
@@ -417,13 +418,13 @@
         display: inline-block;
     }
     #fb-like2 {
-        transform: scale(1.0);
-        -webkit-transform: scale(1.0);
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
         -moz-transform: scale(1.6);
         display: inline-block;
         position: relative;
-        top: 94px;
-        right: -18%;
+        top: 6px;
+        right: 23%;
         float: right;
     }
     /*.fb_iframe_widget > span {
@@ -443,12 +444,12 @@
     width:100% !important;
     */
     #font_sub {
-        width: 45%;
+        width: 51%;
         position: relative;
-        left: 31%;
+        left: 30.5%;
         bottom: -6em;
         font-family: serif;
-        font-size: 170%;
+        font-size: 130%;
         font-weight: 300;
         color: #EEEEEE;
     }
@@ -459,33 +460,33 @@
         width: 26%;
         position: relative;
         left: 36%;
-        bottom: -10em;
+        bottom: -7em;
     }
     #hatebu {
         /* width: 210px; */
-        height: 38px;
-        width: 15%;
-        margin-top: 9px;
+        height: 32px;
+        width: 14%;
+        margin-top: 12px;
     }
     #twitter {
         /* padding-bottom: 10px; */
         /* margin-bottom: 9px; */
         /* width: 216px; */
-        width: 23%;
-        height: 64px;
+        width: 22%;
+        height: 56px;
         /* padding-left: 120px; */
         position: relative;
         top: -20px;
-        margin-top: 14px;
+        margin-top: 17px;
         /* padding-bottom: 0px; */
     }
     #facebook {
-        width: 55px;
+        width: 44px;
         /* margin-right: 20px; */
         /* padding-left: 120px; */
         /* position: relative; */
         /* top: -16px; */
-        margin-top: 5px;
+        margin-top: 9px;
     }
     /*.row .col-md-7 #eye_p {
     position: relative;
@@ -508,7 +509,7 @@
         cursor: pointer;
     }
     #hatebu_p {
-        padding-top: 40px;
+        padding-top: 36px;
         font-size: 12px;
         letter-spacing: 0.05em;
         text-align: center;
@@ -549,11 +550,14 @@
         left: -1%;
         top: -60px;
         float: left;
-        width: 49%;
+        width: 46%;
     }
     #end_h2 {
         float: right;
-        padding-right: 90px;
+        padding-right: 37px;
+        padding-top: 5px;
+        font-size: 129%;
+        width: 54%;
     }
     .box {
         display: inline-block;
@@ -566,14 +570,14 @@
         font-family: serif;
     }
     #vt_p {
-        color: #212121;
-        font-size: 128%;
-        font-family: serif;
-        font-weight: 600;
-        width: 63%;
-        margin-left: 126px;
-        position: relative;
-        top: 57px;
+        /* color: #212121; */
+        /* font-size: 128%; */
+        /* font-family: serif; */
+        /* font-weight: 600; */
+        /* width: 63%; */
+        /* margin-left: 126px; */
+        /* position: relative; */
+        /* top: 57px; */
         display: none;
     }
 }

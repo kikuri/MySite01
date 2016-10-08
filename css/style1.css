@@ -1,17 +1,16 @@
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 1200px) and (max-width: 1399px) {
     body {
         margin-left: 0px;
         margin-top: 0px;
         font-family: Avenir, "Open Sans", "Adobe Calson Pro", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     }
-    /*.container {
-    max-width: 1199px;
-    min-width: 992px;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
-}*/
+    .container {
+        width: 1440px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
     .wrap {
         overflow: hidden;
     }
@@ -35,11 +34,11 @@
     #mes_icon {
         width: 2.3%;
         position: relative;
-        left: 40.8%;
-        bottom: -9.1em;
+        left: 41.8%;
+        bottom: -15.4em;
     }
     .sample {
-        width: 182px;
+        width: 240px;
         font-size: 15px;
         font-weight: lighter;
         text-decoration: none;
@@ -51,9 +50,9 @@
         border-radius: 5px;
         box-shadow: 2px 2px #1a6ea0;
         position: relative;
-        left: 38%;
-        bottom: -10.3em;
-        height: 34px;
+        left: 39%;
+        bottom: -16.9em;
+        height: 43px;
     }
     /*.slideshow {
     position: relative;
@@ -68,7 +67,7 @@
         transition: 1s;
         /* フェードの時間(秒) */
         width: 99%;
-        height: 115%;
+        height: 143%;
     }
     .slideshow .show {
         opacity: 1;
@@ -76,10 +75,10 @@
     }
     #come {
         position: relative;
-        left: 41%;
-        bottom: -16em;
+        left: 43%;
+        bottom: -24.3em;
         z-index: 10;
-        width: 17%;
+        width: 14%;
         opacity: 0.7;
     }
     #messenger {
@@ -97,19 +96,19 @@
         margin-top: 4px;
     }
     #mubot_ic {
-        width: 36%;
+        width: 34%;
         position: relative;
         text-align: center;
-        bottom: -13em;
-        right: -35%;
+        bottom: -19em;
+        right: -42%;
     }
     #icon_p {
         position: relative;
-        font-size: 17px;
+        font-size: 22px;
         color: #EF454A;
         text-align: center;
-        right: 0%;
-        bottom: -1em;
+        right: -1%;
+        bottom: -2.3em;
         font-family: monospace;
         font-weight: 300;
     }
@@ -124,16 +123,16 @@
         position: relative;
         display: inline-block;
         padding: 0 15px;
-        width: 396px;
+        width: 492px;
         /* min-width: 115px; */
-        height: 39px;
+        height: 50px;
         color: #F6F6F6;
         line-height: 50px;
         text-align: center;
         background: #fff;
         border-radius: 50px;
-        bottom: -4em;
-        left: 28%;
+        bottom: -7em;
+        left: 30%;
     }
     #balloon-5-bottom-right:before {
         content: "";
@@ -172,16 +171,16 @@
     #box2 {
         text-align: center;
         margin: auto;
-        /* margin-top: 10%; */
+        margin-top: 21%;
     }
     h1 {
         text-align: center;
         color: #00A4F4;
         /* margin-bottom: 2em; */
         font-family: serif;
-        font-size: 260%;
+        font-size: 380%;
         /* margin-top: 101px; */
-        padding-top: 36px;
+        padding-top: 77px;
         font-weight: 900;
     }
     h2 {
@@ -204,15 +203,15 @@
         vertical-align: middle;
         margin: 10px;
         /* margin-left: -30px; */
-        padding-left: 18px;
-        padding-top: 10px;
+        padding-left: 55px;
     }
     #pic2 {
         text-align: center;
         display: table-cell;
         text-align: center;
         vertical-align: middle;
-        /* margin: 0px; */
+        margin: 10px;
+        padding-left: 21px;
     }
     #pic3 {
         text-align: center;
@@ -220,18 +219,19 @@
         text-align: center;
         vertical-align: middle;
         margin: 10px;
-        padding-top: 22px;
+        padding-top: 16px;
     }
     #img1 {
-        width: 73%;
+        width: 92%;
     }
     #img2 {
-        width: 100%;
-        margin-right: -82px;
+        width: 122%;
+        margin-right: 52px;
         text-align: center;
+        margin-top: -10px;
     }
     #img3 {
-        width: 73%;
+        width: 92%;
     }
     ul {
         margin-top: 80px;
@@ -240,13 +240,13 @@
         color: #212121;
         font-weight: 600;
         font-family: serif;
-        font-size: 102%;
+        font-size: 140%;
     }
     #talk_p {
         color: #212121;
         font-weight: 600;
         font-family: serif;
-        font-size: 102%;
+        font-size: 140%;
         text-align: center;
         padding-left: 27px;
     }
@@ -254,7 +254,7 @@
         color: #212121;
         font-weight: 600;
         font-family: serif;
-        font-size: 102%;
+        font-size: 140%;
         width: 103%;
     }
     #come {
@@ -262,18 +262,20 @@
     }
     h2 {
         color: #00A4F4;
-        font-size: 155%;
+        font-size: 280%;
         font-family: serif;
         font-weight: 600;
+        /* padding-top: 0px; */
+        margin-top: 5%;
     }
     #music_h2 {
         margin-top: 18%;
-        font-size: 185%;
+        font-size: 280%;
         font-family: serif;
         color: #00A4F4;
     }
     #recommend_h2 {
-        margin-top: 18%;
+        margin-top: 16%;
         padding-left: 16%;
     }
     #hr1 {
@@ -281,8 +283,8 @@
         background-color: #3FA9F5;
     }
     #box3 {
-        margin-top: 42px;
-        height: 478px;
+        margin-top: 140px;
+        height: 649px;
         background-color: aliceblue;
         top: -298px;
         width: 100%;
@@ -294,14 +296,14 @@
     #bt {
         color: #3FA9F5;
         margin-left: 25%;
-        font-size: 339%;
+        font-size: 500%;
         font-family: serif;
         font-weight: 900;
         padding-top: -30px;
     }
     #btt {
         margin-left: 25%;
-        font-size: 120%;
+        font-size: 170%;
         color: #212121;
         font-family: serif;
         font-weight: 400;
@@ -310,7 +312,7 @@
     #eyecatch2 {
         width: 100%;
         margin-right: 3%;
-        margin-top: -16.1%;
+        margin-top: -14%;
     }
     #box4 {
         /* text-align: center; */
@@ -320,23 +322,22 @@
         /* padding-right: 516px; */
     }
     #vt {
-        font-size: 280%;
+        font-size: 450%;
         font-weight: 900;
         font-family: serif;
         color: #00A4F4;
-        width: 116%;
+        width: 76%;
         /* margin-top: -465px; */
-        margin-left: 103px;
+        margin-left: 158px;
         position: relative;
-        top: 426px;
-        right: 78%;
+        top: -70px;
     }
     #box5 {
         text-align: center;
         background-color: aliceblue;
-        height: 150px;
+        height: 300px;
         width: 100%;
-        margin-top: 15%;
+        margin-top: -29%;
     }
     #box6 {
         text-align: center;
@@ -354,11 +355,11 @@
     display: inline-block;
     margin-bottom: -4px;
     margin-top: -3px;
-    */
+}*/
     .mov {
         width: 62%;
         position: relative;
-        top: -698px;
+        top: -925px;
         right: -19%;
     }
     .sns {
@@ -369,21 +370,19 @@
         /* height: 300px; */
         /* color: aliceblue; */
         /* border-radius: 10px; */
-        /* border-radius: 18px; */
-        /* padding: 7% 15%; */
-        /* background: aliceblue; */
-        /* position: relative; */
-        /* z-index: -1; */
-        /* bottom: 35em; */
-        /* width: 119%; */
-        /* right: 2%; */
+        border-radius: 18px;
+        padding: 7% 15%;
+        background: aliceblue;
+        position: relative;
+        z-index: -1;
+        bottom: 35em;
+        width: 143%;
+        right: 11%;
         /* line-height: 100px; */
-        /* height: 521px; */
+        height: 521px;
     }
     .iframe-content {
-        /* margin-left: -3px; */
-        /* width: 100px; */
-        margin-left: 65px;
+        margin-left: -19px;
     }
     iframe.twitter-follow-button {
         visibility: hidden;
@@ -403,13 +402,13 @@
         left: 951px;
     }
     #fb-like1 {
-        transform: scale(1.2);
-        -webkit-transform: scale(1.2);
+        transform: scale(1.7);
+        -webkit-transform: scale(1.7);
         -moz-transform: scale(2);
         display: inline-block;
         position: relative;
-        right: -44.5%;
-        bottom: -3em;
+        right: -46%;
+        bottom: -6em;
         border-radius: 4px;
         box-shadow: 2px 2px 2px #000;
     }
@@ -417,20 +416,20 @@
         display: inline-block;
     }
     #fb-like2 {
-        transform: scale(1.0);
-        -webkit-transform: scale(1.0);
+        transform: scale(1.6);
+        -webkit-transform: scale(1.6);
         -moz-transform: scale(1.6);
         display: inline-block;
         position: relative;
-        top: 94px;
-        right: -18%;
+        top: 54px;
+        right: 19%;
         float: right;
     }
     /*.fb_iframe_widget > span {
     position: absolute;
     top: 844px;
     right: 666px;
-
+}
     #fb-root {
     display: none;
 }
@@ -443,12 +442,12 @@
     width:100% !important;
     */
     #font_sub {
-        width: 45%;
+        width: 38%;
         position: relative;
-        left: 31%;
-        bottom: -6em;
+        left: 31.8%;
+        bottom: -7em;
         font-family: serif;
-        font-size: 170%;
+        font-size: 214%;
         font-weight: 300;
         color: #EEEEEE;
     }
@@ -459,33 +458,29 @@
         width: 26%;
         position: relative;
         left: 36%;
-        bottom: -10em;
+        bottom: -15em;
     }
     #hatebu {
         /* width: 210px; */
-        height: 38px;
-        width: 15%;
-        margin-top: 9px;
+        height: 62px;
+        width: 16%;
     }
     #twitter {
         /* padding-bottom: 10px; */
         /* margin-bottom: 9px; */
         /* width: 216px; */
-        width: 23%;
-        height: 64px;
+        width: 26%;
+        height: 109px;
         /* padding-left: 120px; */
         position: relative;
         top: -20px;
-        margin-top: 14px;
-        /* padding-bottom: 0px; */
     }
     #facebook {
-        width: 55px;
+        width: 93px;
         /* margin-right: 20px; */
         /* padding-left: 120px; */
-        /* position: relative; */
-        /* top: -16px; */
-        margin-top: 5px;
+        position: relative;
+        top: -16px;
     }
     /*.row .col-md-7 #eye_p {
     position: relative;
@@ -495,7 +490,7 @@
     font-size: 204%;
     font-family: serif;
     */
-    #box6 .col-md-4:hover {
+    #box6 .col-lg-4:hover {
         opacity: 1;
         font-size: larger;
     }
@@ -503,13 +498,13 @@
         margin-top: -4px;
         margin-left: 7px;
     }
-    #box6 .col-md-4 {
+    #box6 .col-lg-4 {
         border-left: 1px solid #eee;
         cursor: pointer;
     }
     #hatebu_p {
-        padding-top: 40px;
-        font-size: 12px;
+        padding-top: 52px;
+        font-size: 18px;
         letter-spacing: 0.05em;
         text-align: center;
         text-transform: uppercase;
@@ -521,7 +516,7 @@
     }
     #twitter_p {
         padding-top: 0px;
-        font-size: 12px;
+        font-size: 18px;
         letter-spacing: 0.05em;
         text-align: center;
         text-transform: uppercase;
@@ -532,9 +527,9 @@
         text-decoration: underline;
     }
     #facebook_p {
-        padding-top: 16px;
+        padding-top: 8px;
         /* padding-top: 47px; */
-        font-size: 12px;
+        font-size: 18px;
         letter-spacing: 0.05em;
         text-align: center;
         text-transform: uppercase;
@@ -549,11 +544,12 @@
         left: -1%;
         top: -60px;
         float: left;
-        width: 49%;
+        width: 56%;
     }
     #end_h2 {
         float: right;
-        padding-right: 90px;
+        padding-top: 18px;
+        padding-right: 48px;
     }
     .box {
         display: inline-block;
@@ -567,13 +563,12 @@
     }
     #vt_p {
         color: #212121;
-        font-size: 128%;
+        font-size: 180%;
         font-family: serif;
         font-weight: 600;
         width: 63%;
-        margin-left: 126px;
+        margin-left: 188px;
         position: relative;
         top: 57px;
-        display: none;
     }
 }
