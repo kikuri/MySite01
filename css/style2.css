@@ -204,8 +204,9 @@
         vertical-align: middle;
         margin: 10px;
         /* margin-left: -30px; */
-        padding-left: 55px;
+        /* padding-left: 55px; */
         padding-top: 10px;
+        padding-right: 12%;
     }
     #pic2 {
         text-align: center;
@@ -224,7 +225,8 @@
         padding-top: 22px;
     }
     #img1 {
-        width: 76%;
+        width: 77%;
+        margin-top: -6%;
     }
     #img2 {
         width: 107%;
@@ -268,7 +270,7 @@
         font-weight: 600;
     }
     #music_h2 {
-        margin-top: 18%;
+        margin-top: 0%;
         font-size: 200%;
         font-family: serif;
         color: #00A4F4;
@@ -282,7 +284,7 @@
         background-color: #3FA9F5;
     }
     #box3 {
-        margin-top: 42px;
+        margin-top: 138px;
         height: 548px;
         background-color: aliceblue;
         top: -298px;
@@ -311,12 +313,12 @@
     #eyecatch2 {
         width: 100%;
         margin-right: 3%;
-        margin-top: -16.1%;
+        margin-top: -22.1%;
     }
     #box4 {
         /* text-align: center; */
         width: 100%;
-        margin-top: -52%;
+        margin-top: -16%;
         /* margin-right: 544px; */
         /* padding-right: 516px; */
     }
@@ -342,7 +344,7 @@
         text-align: center;
         height: 300px;
         width: 100%;
-        margin-top: -71%;
+        margin-top: -33%;
     }
     #fotter {
         background-color: #3FA9F5;
@@ -354,12 +356,12 @@
     display: inline-block;
     margin-bottom: -4px;
     margin-top: -3px;
-}*/
+    */
     .mov {
         width: 62%;
-        position: relative;
-        top: -794px;
-        right: -19%;
+        position: absolute;
+        top: 7.4%;
+        right: 19%;
     }
     .sns {
         margin-top: 50px;
@@ -421,15 +423,15 @@
         -moz-transform: scale(1.6);
         display: inline-block;
         position: relative;
-        top: 32px;
-        right: 21%;
+        top: 152px;
+        right: -19%;
         float: right;
     }
     /*.fb_iframe_widget > span {
     position: absolute;
     top: 844px;
     right: 666px;
-}
+
     #fb-root {
     display: none;
 }

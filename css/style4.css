@@ -204,7 +204,6 @@
         margin: 10px;
         /* margin-left: -30px; */
         /* padding-left: 18px; */
-        padding-top: 10px;
     }
     #pic2 {
         text-align: center;
@@ -223,7 +222,8 @@
         padding-top: 22px;
     }
     #img1 {
-        width: 67%;
+        width: 83%;
+        margin-top: -2%;
     }
     #img2 {
         width: 124%;
@@ -269,7 +269,7 @@
         margin-top: 11px;
     }
     #music_h2 {
-        margin-top: 18%;
+        margin-top: -2%;
         font-size: 155%;
         font-family: serif;
         color: #00A4F4;

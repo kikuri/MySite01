@@ -204,7 +204,7 @@
         vertical-align: middle;
         margin: 10px;
         /* margin-left: -30px; */
-        padding-left: 18px;
+        /* padding-left: 18px; */
         padding-top: 10px;
     }
     #pic2 {
@@ -223,7 +223,8 @@
         padding-top: 22px;
     }
     #img1 {
-        width: 73%;
+        width: 70%;
+        margin-top: -9%;
     }
     #img2 {
         width: 100%;
@@ -267,7 +268,7 @@
         font-weight: 600;
     }
     #music_h2 {
-        margin-top: 18%;
+        margin-top: 0%;
         font-size: 185%;
         font-family: serif;
         color: #00A4F4;
@@ -310,12 +311,12 @@
     #eyecatch2 {
         width: 100%;
         margin-right: 3%;
-        margin-top: -16.1%;
+        margin-top: -13.1%;
     }
     #box4 {
         /* text-align: center; */
         width: 100%;
-        margin-top: -52%;
+        margin-top: -17%;
         /* margin-right: 544px; */
         /* padding-right: 516px; */
     }
@@ -342,7 +343,7 @@
         text-align: center;
         height: 300px;
         width: 100%;
-        margin-top: -71%;
+        margin-top: -33%;
     }
     #fotter {
         background-color: #3FA9F5;
@@ -356,10 +357,10 @@
     margin-top: -3px;
     */
     .mov {
-        width: 62%;
-        position: relative;
-        top: -698px;
-        right: -19%;
+        width: 60%;
+        position: absolute;
+        top: 13%;
+        right: 20%;
     }
     .sns {
         margin-top: 50px;

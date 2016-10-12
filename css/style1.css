@@ -203,7 +203,8 @@
         vertical-align: middle;
         margin: 10px;
         /* margin-left: -30px; */
-        padding-left: 55px;
+        /* padding-left: 55px; */
+        padding-right: 9%;
     }
     #pic2 {
         text-align: center;
@@ -222,7 +223,7 @@
         padding-top: 16px;
     }
     #img1 {
-        width: 92%;
+        width: 85%;
     }
     #img2 {
         width: 122%;
@@ -269,7 +270,7 @@
         margin-top: 5%;
     }
     #music_h2 {
-        margin-top: 18%;
+        margin-top: -3%;
         font-size: 280%;
         font-family: serif;
         color: #00A4F4;
@@ -355,7 +356,7 @@
     display: inline-block;
     margin-bottom: -4px;
     margin-top: -3px;
-}*/
+*/
     .mov {
         width: 62%;
         position: relative;
