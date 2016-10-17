@@ -1,7 +1,7 @@
 body {
     margin-left: 0px;
     margin-top: 0px;
-    font-family: Avenir, "Open Sans", "Adobe Calson Pro", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-family: "Apercu Regular", "Avenir", "Open Sans", "Adobe Calson Pro", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 .container {
@@ -24,6 +24,17 @@ body {
     font-family: sans-serif;
     text-align: center;
     bottom: -3em;
+}
+
+#catch {
+    font-family: Apercu Regular;
+    font-size: 800%;
+    color: #3FA9F5;
+    position: relative;
+    left: 33.2%;
+    bottom: -3em;
+    letter-spacing: 0.05em;
+    text-shadow: 0.3px 0.3px 0.3px black;
 }
 
 #eye_p {
@@ -70,12 +81,12 @@ height: 100%;
 .slideshow img {
     position: absolute;
     left: 2.5%;
-    top: 0;
+    top: 19%;
     opacity: 0;
     transition: 1s;
     /* フェードの時間(秒) */
     width: 95%;
-    height: 116%;
+    height: 250%;
     /* text-align: center; */
 }
 
@@ -196,14 +207,14 @@ bottom: 1em;
 #box2 {
     text-align: center;
     margin: auto;
-    margin-top: 8%;
+    margin-top: 39%;
 }
 
 h1 {
     text-align: center;
     color: #00A4F4;
     margin-bottom: 1em;
-    font-family: STFangsong;
+    font-family: Apercu Regular;
     font-size: 380%;
     /* margin-top: 101px; */
     padding-top: 90px;
@@ -219,7 +230,7 @@ h2 {
 #p3 {
     color: #db4437;
     font-size: 130%;
-    font-family: serif;
+    font-family: Apercu Regular;
     /* font-size: 400%; */
     /* margin-top: 101px; */
     /* padding-top: 77px; */
@@ -232,6 +243,8 @@ h2 {
     text-align: center;
     vertical-align: middle;
     margin: 10px;
+    /* padding-right: 3%; */
+    /* padding-left: 28%; */
 }
 
 #pic2 {
@@ -240,7 +253,7 @@ h2 {
     text-align: center;
     vertical-align: middle;
     margin: 10px;
-    padding-left: 86px;
+    padding-left: 50px;
 }
 
 #pic3 {
@@ -252,20 +265,22 @@ h2 {
 }
 
 #img1 {
-    width: 72%;
-    margin-top: -7%;
-    margin-right: -28%;
+    width: 84%;
+    margin-top: 2%;
+    /* margin-right: -28%; */
+    padding-left: 31%;
 }
 
 #img2 {
-    width: 127%;
+    width: 75%;
     /* margin-right: 28px; */
     text-align: center;
-    margin-top: -8%;
+    /* margin-top: -8%; */
 }
 
 #img3 {
-    width: 98%;
+    width: 70%;
+    /* margin-top: 0px; */
 }
 
 ul {
@@ -274,27 +289,28 @@ ul {
 
 #music_p {
     color: #212121;
-    font-weight: 600;
-    font-family: STFangsong;
+    font-weight: 400;
+    font-family: Apercu Regular;
     font-size: 140%;
-    margin-right: -28%;
+    /* margin-right: -28%; */
+    padding-left: 32%;
 }
 
 #talk_p {
     color: #212121;
-    font-weight: 600;
-    font-family: STFangsong;
+    font-weight: 400;
+    font-family: Apercu Regular;
     font-size: 140%;
     text-align: center;
-    padding-right: 8%;
+    /* padding-right: 8%; */
 }
 
 #recommend_p {
     color: #212121;
-    font-weight: 600;
-    font-family: STFangsong;
+    font-weight: 400;
+    font-family: Apercu Regular;
     font-size: 140%;
-    width: 103%;
+    width: 98%;
 }
 
 #come {
@@ -304,20 +320,21 @@ ul {
 h2 {
     color: #00A4F4;
     font-size: 300%;
-    font-family: STFangsong;
+    font-family: Apercu Regular;
     font-weight: 600;
 }
 
 #music_h2 {
-    margin-top: -4%;
+    margin-top: 2%;
     font-size: 300%;
-    font-family: serif;
+    font-family: Apercu Regular;
     color: #00A4F4;
-    margin-right: -28%;
+    /* margin-right: -28%; */
+    padding-left: 30%;
 }
 
 #recommend_h2 {
-    margin-top: 18%;
+    /* margin-top: 18%; */
 }
 
 #hr1 {
@@ -327,7 +344,7 @@ h2 {
 
 #box3 {
     margin-top: 140px;
-    height: 767px;
+    height: 640px;
     background-color: aliceblue;
     top: -298px;
     width: 100%;
@@ -340,24 +357,24 @@ h2 {
 
 #bt {
     color: #3FA9F5;
-    margin-left: 25%;
-    font-size: 500%;
-    font-family: STFangsong;
+    margin-left: 29%;
+    font-size: 400%;
+    font-family: Apercu Regular;
     font-weight: 900;
     padding-top: -30px;
 }
 
 #btt {
-    margin-left: 25%;
+    margin-left: 30%;
     font-size: 170%;
     color: #212121;
-    font-family: STFangsong;
+    font-family: Apercu Regular;
     font-weight: 400;
     padding-top: 43px;
 }
 
 #eyecatch2 {
-    width: 100%;
+    width: 81%;
     margin-right: 3%;
     margin-top: -14%;
 }
@@ -365,15 +382,15 @@ h2 {
 #box4 {
     /* text-align: center; */
     width: 100%;
-    margin-top: -52%;
+    margin-top: -21%;
     /* margin-right: 544px; */
     /* padding-right: 516px; */
 }
 
 #vt {
-    font-size: 500%;
-    font-weight: 900;
-    font-family: STFangsong;
+    font-size: 480%;
+    font-weight: 600;
+    font-family: Apercu Regular;
     color: #00A4F4;
     width: 69%;
     /* margin-top: -465px; */
@@ -384,17 +401,17 @@ h2 {
 
 #box5 {
     text-align: center;
-    background-color: aliceblue;
     height: 300px;
     width: 100%;
     margin-top: -20%;
+    background-color: aliceblue;
 }
 
 #box6 {
     text-align: center;
     height: 300px;
     width: 100%;
-    margin-top: -71%;
+    margin-top: -38%;
 }
 
 #fotter {
@@ -412,10 +429,10 @@ margin-top: -3px;
 }*/
 
 .mov {
-    width: 62%;
+    width: 64%;
     position: relative;
-    top: -1093px;
-    right: -19%;
+    top: -606px;
+    right: -9%;
 }
 
 .sns {
@@ -466,14 +483,14 @@ iframe.twitter-follow-button {
 
 #fb-like1 {
     transform: scale(2);
-    -webkit-transform: scale(2);
+    -webkit-transform: scale(1.2);
     -moz-transform: scale(2);
     display: inline-block;
     position: relative;
     right: -47%;
-    bottom: -3em;
+    bottom: -26em;
     border-radius: 4px;
-    box-shadow: 2px 2px 2px #000;
+    box-shadow: 0.2px 0.2px 0.2px #000;
 }
 
 #arrow-like {
@@ -482,12 +499,12 @@ iframe.twitter-follow-button {
 
 #fb-like2 {
     transform: scale(1.6);
-    -webkit-transform: scale(1.6);
+    -webkit-transform: scale(1.3);
     -moz-transform: scale(1.6);
     display: inline-block;
     position: relative;
-    top: 54px;
-    right: 23%;
+    top: 42px;
+    right: 48%;
     float: right;
 }
 
@@ -512,13 +529,13 @@ width:100% !important;
 #font_sub {
     width: 35%;
     position: relative;
-    left: 33.5%;
-    bottom: -6em;
-    font-family: Kaiti SC;
+    left: 33.9%;
+    bottom: -11em;
+    font-family: Al Nile;
     font-size: 230%;
     font-weight: 300;
     color: #EEEEEE;
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 0.3px 0.3px 0.3px black;
 }
 
 #font_sub_sub {
@@ -526,15 +543,15 @@ width:100% !important;
 }
 
 #mubot_font {
-    width: 26%;
+    width: 25%;
     position: relative;
-    left: 36%;
+    left: 38%;
     bottom: -15em;
 }
 
 #hatebu {
     /* width: 210px; */
-    height: 62px;
+    height: 53px;
     width: 16%;
 }
 
@@ -542,15 +559,15 @@ width:100% !important;
     /* padding-bottom: 10px; */
     /* margin-bottom: 9px; */
     /* width: 216px; */
-    width: 26%;
-    height: 109px;
+    width: 25%;
+    height: 86px;
     /* padding-left: 120px; */
     position: relative;
     top: -20px;
 }
 
 #facebook {
-    width: 93px;
+    width: 70px;
     /* margin-right: 20px; */
     /* padding-left: 120px; */
     position: relative;
@@ -583,8 +600,8 @@ font-family: serif;
 }
 
 #hatebu_p {
-    padding-top: 52px;
-    font-size: 18px;
+    padding-top: 39px;
+    font-size: 15px;
     letter-spacing: 0.05em;
     text-align: center;
     text-transform: uppercase;
@@ -598,7 +615,7 @@ font-family: serif;
 
 #twitter_p {
     padding-top: 0px;
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 0.05em;
     text-align: center;
     text-transform: uppercase;
@@ -613,7 +630,7 @@ font-family: serif;
 #facebook_p {
     padding-top: 8px;
     /* padding-top: 47px; */
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 0.05em;
     text-align: center;
     text-transform: uppercase;
@@ -627,36 +644,93 @@ font-family: serif;
 
 #end {
     position: relative;
-    left: 5%;
+    left: 1%;
     top: -60px;
     float: left;
 }
 
 #end_h2 {
-    float: right;
-    padding-top: 18px;
-    padding-right: 106px;
+    /* float: right; */
+    padding-top: 61px;
+    /* padding-right: 162px; */
+    text-align: center;
+    font-size: 235%;
+    font-family: Apercu Regular;
 }
 
 .box {
     display: inline-block;
     margin-bottom: 0px;
     margin-top: 3px;
+    margin-right: 27px;
 }
 
 #end3 {
     color: #db4437;
     font-size: 100%;
-    font-family: serif;
+    font-family: Apercu Regular;
 }
 
 #vt_p {
     color: #212121;
     font-size: 200%;
-    font-family: STFangsong;
-    font-weight: 600;
+    font-family: Apercu Regular;
+    font-weight: 400;
     width: 63%;
     margin-left: 188px;
     position: relative;
     top: 57px;
+    margin-top: -4%;
+}
+
+.col-lg-3 {
+    width: 25%;
+    margin-right: -9%;
+    margin-left: 11%;
+}
+
+#hello {
+    width: 45%;
+    position: relative;
+    top: -448px;
+    right: -64%;
+}
+
+#p1 {
+    display: inline-block;
+    position: relative;
+    top: 409px;
+    font-size: 26px;
+    color: white;
+    left: 35.9%;
+    text-shadow: 1px 1px 1px black;
+}
+
+#p2 {
+    display: inline-block;
+    position: relative;
+    top: 335px;
+    font-size: 26px;
+    color: white;
+    left: 55%;
+    text-shadow: 1px 1px 1px black;
+}
+
+.milky {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    text-transform: uppercase;
+    display: block;
+    font-size: 92px;
+    color: #f1ebe5;
+    text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+    font-weight: bold;
+    letter-spacing: -4px;
+    text-align: center;
+    background: linear-gradient(to bottom, #ece4d9 0%, #e9dfd1 100%);
+    position: absolute;
+    padding: 100px 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
 }

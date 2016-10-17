@@ -16,61 +16,53 @@ $(window).load(function () {
     }
 });
 $(function () {
-    $("#box6 .col-lg-4").hover(function () {
+    $("#box6 .col-lg-3").hover(function () {
         $(this).stop().animate({
-            "opacity": "1"
-            , "font-weight": "bold"
+            "font-weight": "bold"
             , "margin-top": "-15px"
         });
     }, function () {
         $(this).stop().animate({
-            "opacity": "0.6"
-            , "font-weight": "normal"
+            "font-weight": "normal"
             , "margin-top": "0px"
         });
     });
 });
 $(function () {
-    $("#box6 .col-md-4").hover(function () {
+    $("#box6 .col-md-3").hover(function () {
         $(this).stop().animate({
-            "opacity": "1"
-            , "font-weight": "bold"
+            "font-weight": "bold"
             , "margin-top": "-15px"
         });
     }, function () {
         $(this).stop().animate({
-            "opacity": "0.6"
-            , "font-weight": "normal"
+            "font-weight": "normal"
             , "margin-top": "0px"
         });
     });
 });
 $(function () {
-    $("#box6 .col-sm-4").hover(function () {
+    $("#box6 .col-sm-3").hover(function () {
         $(this).stop().animate({
-            "opacity": "1"
-            , "font-weight": "bold"
+            "font-weight": "bold"
             , "margin-top": "-15px"
         });
     }, function () {
         $(this).stop().animate({
-            "opacity": "0.6"
-            , "font-weight": "normal"
+            "font-weight": "normal"
             , "margin-top": "0px"
         });
     });
 });
 $(function () {
-    $("#box6 .col-xs-4").hover(function () {
+    $("#box6 .col-xs-3").hover(function () {
         $(this).stop().animate({
-            "opacity": "1"
-            , "font-weight": "bold"
+            "font-weight": "bold"
             , "margin-top": "-15px"
         });
     }, function () {
         $(this).stop().animate({
-            "opacity": "0.6"
-            , "font-weight": "normal"
+            "font-weight": "normal"
             , "margin-top": "0px"
         });
     });
