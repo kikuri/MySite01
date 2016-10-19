@@ -100,3 +100,8 @@ function canvasDraw() {
         clearInterval(canvasDrawTimer);
     }
 }
+$(function () {
+    $("#img2").hover(function () {
+        $("#hello").toggleClass('remove');
+    });
+});
