@@ -4,13 +4,13 @@
         margin-top: 0px;
         font-family: "Apercu Regular", "Avenir", "Open Sans", "Adobe Calson Pro", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     }
-    /* .container {
-    width: 1440px;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
-}*/
+    .container {
+        width: 1440px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
     .container-fluid {
         padding-right: 0px;
         padding-left: 0px;
@@ -34,10 +34,11 @@
         font-size: 800%;
         color: #3FA9F5;
         position: relative;
-        left: 28.2%;
+        /* left: 33.2%; */
         bottom: -3em;
         letter-spacing: 0.05em;
         text-shadow: 0.3px 0.3px 0.3px black;
+        text-align: center;
     }
     #eye_p {
         position: relative;
@@ -70,20 +71,15 @@
         bottom: -17.3em;
         height: 43px;
     }
-    /*.slideshow {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}*/
     .slideshow img {
         position: absolute;
-        /* left: 2.5%; */
-        /* top: 11%; */
+        left: 0%;
+        top: 0%;
         opacity: 0;
         transition: 1s;
         /* フェードの時間(秒) */
         width: 100%;
-        height: 218%;
+        height: 250%;
         /* text-align: center; */
     }
     .slideshow .show {
@@ -129,13 +125,6 @@
         font-family: Kaiti SC;
         font-weight: 300;
     }
-    /*#huki {
-    position: relative;
-    text-align: center;
-    right: -26%;
-    bottom: 1em;
-    */
-    /* balloon-4 bottom-right */
     #balloon-5-bottom-right {
         position: relative;
         display: inline-block;
@@ -188,18 +177,19 @@
     #box2 {
         text-align: center;
         margin: auto;
-        margin-top: 39%;
+        margin-top: 41%;
+        background-color: #FFFDFD;
     }
     h1 {
         text-align: center;
         color: #00A4F4;
         margin-bottom: 1em;
         font-family: Apercu Regular;
-        font-size: 380%;
+        font-size: 300%;
         /* margin-top: 101px; */
         padding-top: 90px;
         font-weight: 900;
-        padding-right: 3%;
+        /* padding-right: 3%; */
     }
     h2 {
         text-align: center;
@@ -209,96 +199,90 @@
         color: #db4437;
         font-size: 130%;
         font-family: Apercu Regular;
-        /* font-size: 400%; */
-        /* margin-top: 101px; */
-        /* padding-top: 77px; */
-        /* font-weight: 900; */
     }
     #pic1 {
         text-align: center;
-        display: table-cell;
+        /*display: table-cell;*/
         text-align: center;
         vertical-align: middle;
         margin: 10px;
         /* padding-right: 3%; */
-        /* padding-left: 28%; */
+        padding-left: 3%;
     }
     #pic2 {
         text-align: center;
-        display: table-cell;
+        /*display: table-cell;*/
         text-align: center;
         vertical-align: middle;
         margin: 10px;
-        padding-left: 19px;
+        /*padding-left: 50px;*/
     }
     #pic3 {
         text-align: center;
-        display: table-cell;
+        /*display: table-cell;*/
         text-align: center;
         vertical-align: middle;
         margin: 10px;
+        padding-right: 3%;
     }
     #img1 {
-        width: 82%;
-        margin-top: 2%;
-        /* margin-right: -28%; */
-        padding-left: 18%;
+        width: 225px;
     }
     #img2 {
-        width: 68%;
+        width: 225px;
         /* margin-right: 28px; */
         text-align: center;
         /* margin-top: -8%; */
     }
     #img3 {
-        width: 78%;
-        margin-top: -1%;
+        width: 225px;
+        /* margin-top: 0px; */
     }
     ul {
         margin-top: 80px;
     }
     #music_p {
-        color: #212121;
+        color: #546E7A;
         font-weight: 400;
         font-family: Apercu Regular;
-        font-size: 120%;
-        /* margin-right: -28%; */
-        padding-left: 19%;
+        font-size: 140%;
+        line-height: 1.5;
     }
     #talk_p {
-        color: #212121;
+        color: #546E7A;
         font-weight: 400;
         font-family: Apercu Regular;
-        font-size: 120%;
-        text-align: center;
-        /* padding-right: 8%; */
+        font-size: 140%;
+        line-height: 1.5;
     }
     #recommend_p {
-        color: #212121;
+        color: #546E7A;
         font-weight: 400;
         font-family: Apercu Regular;
-        font-size: 120%;
-        width: 98%;
+        font-size: 140%;
+        line-height: 1.5;
     }
     #come {
         color: #212121;
     }
     h2 {
         color: #00A4F4;
-        font-size: 290%;
+        font-size: 300%;
         font-family: Apercu Regular;
         font-weight: 600;
+        letter-spacing: 2px;
     }
     #music_h2 {
-        margin-top: 2%;
-        font-size: 290%;
+        /* margin-top: 2%; */
+        font-size: 300%;
         font-family: Apercu Regular;
         color: #00A4F4;
         /* margin-right: -28%; */
-        padding-left: 20%;
+        /*padding-left: 30%;*/
+        letter-spacing: 2.5px;
     }
     #recommend_h2 {
-        margin-top: -3%;
+        /* margin-top: -2%; */
     }
     #hr1 {
         height: 1px;
@@ -306,67 +290,66 @@
     }
     #box3 {
         margin-top: 140px;
-        height: 446px;
+        height: 640px;
         background-color: aliceblue;
         top: -298px;
         width: 100%;
     }
     #text {
         /* width: 50%; */
-        margin-top: 9%;
+        margin-top: 15%;
     }
     #bt {
         color: #3FA9F5;
         margin-left: 29%;
-        font-size: 360%;
+        font-size: 400%;
         font-family: Apercu Regular;
         font-weight: 900;
         padding-top: -30px;
     }
     #btt {
         margin-left: 30%;
-        font-size: 130%;
-        color: #212121;
+        font-size: 170%;
+        color: #546E7A;
         font-family: Apercu Regular;
         font-weight: 400;
         padding-top: 43px;
+        letter-spacing: 1.5px;
     }
     #eyecatch2 {
         width: 81%;
         margin-right: 3%;
-        margin-top: -23.6%;
+        margin-top: -16%;
     }
     #box4 {
         /* text-align: center; */
         width: 100%;
-        margin-top: -21%;
-        /* margin-right: 544px; */
-        /* padding-right: 516px; */
+        background-color: #FFFDFD;
     }
     #vt {
-        font-size: 460%;
+        font-size: 400%;
         font-weight: 600;
         font-family: Apercu Regular;
         color: #00A4F4;
-        width: 205%;
-        margin-top: 51px;
-        margin-left: -102%;
+        width: 69%;
+        /* margin-top: -465px; */
+        margin-left: 158px;
         position: relative;
-        top: 347px;
+        top: -70px;
         line-height: 1.3;
     }
     #box5 {
         text-align: center;
-        height: 300px;
+        height: 270px;
         width: 100%;
-        margin-top: -20%;
+        margin-top: 5%;
         background-color: aliceblue;
     }
     #box6 {
         text-align: center;
-        height: 300px;
-        width: 100%;
-        margin-top: -38%;
+        background-color: #FFFDFD;
+        padding-top: 5%;
+        height: 270px;
     }
     #fotter {
         background-color: #3FA9F5;
@@ -374,39 +357,42 @@
         color: white;
         width: 100%;
     }
-    /*.box {
-    display: inline-block;
-    margin-bottom: -4px;
-    margin-top: -3px;
-    */
     .mov {
-        width: 64%;
+        width: 71.3%;
         position: relative;
-        top: -466px;
-        right: -9%;
+        top: 118px;
+        height: 520px;
+        left: 12%;
     }
     .sns {
         margin-top: 50px;
     }
     #vt_box {
-        /* width: 400px; */
-        /* height: 300px; */
-        /* color: aliceblue; */
-        /* border-radius: 10px; */
         border-radius: 18px;
-        /* padding: 7% 15%; */
-        /* background: aliceblue; */
+        padding: 7% 15%;
+        background: aliceblue;
         /* position: relative; */
-        /* z-index: -1; */
+        z-index: -1;
         /* bottom: 35em; */
-        /* width: 119%; */
-        /* right: 2%; */
+        width: 120%;
+        right: 2%;
         /* line-height: 100px; */
-        height: 521px;
-        /* display: none; */
+        height: 410px;
     }
-    .iframe-content {
-        margin-left: 30%;
+    .youtube {
+        position: relative;
+        width: 100%;
+        padding-top: 56.25%;
+        right: 1%;
+        /* text-align: center; */
+        bottom: -30px;
+    }
+    .youtube iframe {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100% !important;
+        height: 100% !important;
     }
     iframe.twitter-follow-button {
         visibility: hidden;
@@ -431,10 +417,11 @@
         -moz-transform: scale(2);
         display: inline-block;
         position: relative;
-        right: -48%;
-        bottom: -23.9em;
+        right: -47%;
+        bottom: -26em;
         border-radius: 4px;
         box-shadow: 0.2px 0.2px 0.2px #000;
+        /* text-align: center; */
     }
     #arrow-like {
         display: inline-block;
@@ -449,32 +436,21 @@
         right: 48%;
         float: right;
     }
-    /*.fb_iframe_widget > span {
-    position: absolute;
-    top: 844px;
-    right: 666px;
-
     #fb-root {
-    display: none;
-}
-
-    .fb_iframe_widget, .fb_iframe_widget span,
-    .fb_iframe_widget span iframe[style] {
-    width: 100% !important;
-}
-    .fb-like,.fb-like span,.fb-like iframe{
-    width:100% !important;
-}*/
+        display: none;
+    }
     #font_sub {
-        width: 53%;
+        width: 45%;
         position: relative;
-        left: 29.6%;
+        left: 27.9%;
         bottom: -11em;
         font-family: Al Nile;
         font-size: 230%;
         font-weight: 300;
+        text-align: center;
         color: #EEEEEE;
         text-shadow: 0.3px 0.3px 0.3px black;
+        /* text-align: center; */
     }
     #font_sub_sub {
         color: #00A4F4;
@@ -488,33 +464,22 @@
     #hatebu {
         /* width: 210px; */
         height: 53px;
-        width: 21%;
+        width: 20%;
     }
     #twitter {
-        /* padding-bottom: 10px; */
-        /* margin-bottom: 9px; */
-        /* width: 216px; */
-        width: 34%;
+        width: 32%;
         height: 86px;
         /* padding-left: 120px; */
         position: relative;
-        top: -17px;
+        top: -20px;
     }
     #facebook {
         width: 70px;
         /* margin-right: 20px; */
         /* padding-left: 120px; */
         position: relative;
-        top: -6px;
+        top: -16px;
     }
-    /*.row .col-md-7 #eye_p {
-    position: relative;
-    top: -417px;
-    right: -49%;
-    color: aliceblue;
-    font-size: 204%;
-    font-family: serif;
-    */
     #box6 .col-lg-4:hover {
         opacity: 1;
         font-size: larger;
@@ -552,7 +517,7 @@
         text-decoration: underline;
     }
     #facebook_p {
-        padding-top: 12px;
+        padding-top: 8px;
         /* padding-top: 47px; */
         font-size: 15px;
         letter-spacing: 0.05em;
@@ -590,16 +555,15 @@
         font-family: Apercu Regular;
     }
     #vt_p {
-        color: #212121;
-        font-size: 200%;
+        color: #546E7A;
+        font-size: 150%;
         font-family: Apercu Regular;
         font-weight: 400;
         width: 63%;
         margin-left: 188px;
         position: relative;
-        top: 57px;
+        top: 20px;
         margin-top: -9%;
-        display: none;
     }
     .col-lg-3 {
         width: 25%;
@@ -607,48 +571,35 @@
         margin-left: 11%;
     }
     #hello {
-        width: 39%;
+        width: 25%;
         position: relative;
-        top: -420px;
-        right: -55%;
+        top: -448px;
+        right: -54%;
     }
     #p1 {
         display: inline-block;
         position: relative;
-        top: 377px;
+        top: 409px;
         font-size: 26px;
         color: white;
-        left: 32.9%;
+        left: 30.9%;
         text-shadow: 1px 1px 1px black;
     }
     #p2 {
         display: inline-block;
         position: relative;
-        top: 303px;
+        top: 335px;
         font-size: 26px;
         color: white;
-        left: 58.5%;
+        left: 59%;
         text-shadow: 1px 1px 1px black;
-    }
-    .milky {
-        font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
-        text-transform: uppercase;
-        display: block;
-        font-size: 92px;
-        color: #f1ebe5;
-        text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
-        font-weight: bold;
-        letter-spacing: -4px;
-        text-align: center;
-        background: linear-gradient(to bottom, #ece4d9 0%, #e9dfd1 100%);
-        position: absolute;
-        padding: 100px 200px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        border-radius: 20px;
     }
     .remove {
         display: none;
+    }
+    .video_catch {
+        background-image: url(../image/smart-one.png);
+        background-repeat: no-repeat;
+        height: 639px;
     }
 }
