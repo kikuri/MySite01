@@ -316,7 +316,7 @@
         /* width: 50%; */
         margin-top: 15%;
     }
-    #bt {
+    #main_text {
         color: #3FA9F5;
         margin-left: 29%;
         font-size: 400%;
@@ -324,7 +324,7 @@
         font-weight: 900;
         padding-top: -30px;
     }
-    #btt {
+    #sub_text{
         margin-left: 30%;
         font-size: 170%;
         color: #546E7A;
@@ -622,3 +622,5 @@
         height: 639px;
     }
 }
+
+#main_text {}
